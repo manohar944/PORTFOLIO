@@ -60,7 +60,7 @@
 			justify-content: space-around;
 		}
 		.c{
-			width: 33%;
+			width: 27%;
 			 margin: 1%;
     		padding: 1%;
     		border: 2px solid #ccc;
@@ -69,55 +69,16 @@
     		color: white;
     		box-shadow: 4px red;
 		}
-		.d{
-			width: 34%;
-			margin: 1%;
-   			padding: 1%;
-        	background-color: black;
-    		border: 2px solid #ccc;
-    		border-radius: 5%;
-    		color: white;
-    		box-shadow: 4px blue;
-			
-		}
-		.e{
-			width: 33%;
-			margin: 1%;
-   			padding: 1%;
-   			border: 2px solid #ccc;  
-   			background-color: black;
-   			color: white;
-   			border-radius: 5%;
-   			box-shadow: 4px solid blue;
-			
-		}
 		.c img{
 			width: 100%;
 		
 		border-radius: 5%; 
 		}
-		.d img{
-			width: 100%;
-			 
-			border-radius: 5%;
 		
-		}
-		.e img{
-			width: 100%;
-			 
-			border-radius: 5%;
-		
-		}
 		.c:hover{
 			color:white;
 			background-color:blue;}
-		.d:hover{
-			color:white;
-			background-color:blue;}
-		.e:hover{
-			color:white;
-			background-color:blue;
-		}
+		
 		button:hover{
 			color:red;
 			background-color:green;
@@ -156,7 +117,7 @@
 			}
 
 			.b{
-				width: 92%;
+				width: 50%;
 				padding: 2%;
 				
 			}
@@ -164,16 +125,10 @@
 				text-align: center;
 			}
 			.c{
-				width: 92%;
+				width: 50%;
 				padding: 2%;
 			}
-			.d{
-				width: 92%;
-				padding: 2%;
-			}
-			.e{
-				width: 92%;
-				padding: 2%;
+			padding: 2%;
 			}
 			
 
@@ -186,16 +141,39 @@
 				padding:2%;
 				
 			}
-			.d img{
-				width: 98%
-				padding:2%;
-				
-
-			}
-			.e img{
-				width: 94%
-				padding:2%;
-				margin: 1%;
-			}
+			
  		}
+		@media only screen and (min-width: 768px) and (max-width: 1023px){
+			.flexcontainer2{
+				
+				text-align: center;
+			}
+			.a{
+				width: 100%;
+				align-items: center;
+			}
+			.a img{
+				width: 50%;
+				align-items: center;
+			}
+			.c{
+				width: 100%;
+				align-items: center;
+			}
+			.c img{
+				width: 50%;
+				align-items: center;
+			}
+			
+			
+			.b{
+				text-align: center;
+				padding-left: 12%;
+			}
+			.c{
+				width: 40%;
+			}
+			
+		}
+
  		
