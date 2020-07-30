@@ -1,0 +1,201 @@
+
+		.flexcontainer{
+			display: flex;
+			flex-direction: row;
+			width: 96%;
+			
+			margin: 1%;
+			border: 2px solid black;
+			background-color: yellow;
+			padding: 1%;
+		}
+		.a{
+			width: 40%;
+		}
+		.b{
+			width: 60%;
+			text-align: right;
+		
+		}
+		.a img{
+			width: 90%;
+			height: 85%;
+			border-radius: 6%;
+
+		
+		}
+		
+		.flexcontainer3{
+			display: flex;
+			flex-direction: row;
+			width: 98%;
+			margin: 1%;
+
+			
+		
+			
+		}
+		.f{
+			width: 100%;
+		}
+		.f img{
+			width: 100%;
+			height: 90%;
+			border: 2px solid black;
+			
+		}
+		.flexcontainer2{
+			display: flex;
+			flex-direction: row;
+			width: 96%;
+			box-shadow: 4px solid blue;
+
+			margin: 1%;
+			font size: 20px;
+			font-style: initial;
+			background-color: #85929E;
+			font color: solid white;
+			padding: 1%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.c{
+			width: 33%;
+			 margin: 1%;
+    		padding: 1%;
+    		border: 2px solid #ccc;
+    		background-color: black;
+    		border-radius: 5%;
+    		color: white;
+    		box-shadow: 4px red;
+		}
+		.d{
+			width: 34%;
+			margin: 1%;
+   			padding: 1%;
+        	background-color: black;
+    		border: 2px solid #ccc;
+    		border-radius: 5%;
+    		color: white;
+    		box-shadow: 4px blue;
+			
+		}
+		.e{
+			width: 33%;
+			margin: 1%;
+   			padding: 1%;
+   			border: 2px solid #ccc;  
+   			background-color: black;
+   			color: white;
+   			border-radius: 5%;
+   			box-shadow: 4px solid blue;
+			
+		}
+		.c img{
+			width: 100%;
+		
+		border-radius: 5%; 
+		}
+		.d img{
+			width: 100%;
+			 
+			border-radius: 5%;
+		
+		}
+		.e img{
+			width: 100%;
+			 
+			border-radius: 5%;
+		
+		}
+		.c:hover{
+			color:white;
+			background-color:blue;}
+		.d:hover{
+			color:white;
+			background-color:blue;}
+		.e:hover{
+			color:white;
+			background-color:blue;
+		}
+		button:hover{
+			color:red;
+			background-color:green;
+		}
+		footer{
+			background-color: lightyellow;
+			
+		}
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+			.flexcontainer{
+				flex-direction: column;
+				text-align: center;
+				
+
+			}
+			.flexcontainer2{
+				flex-direction: column;
+			
+			}
+			.flexcontainer3{
+				flex-direction: column;
+				padding: 1%;
+				
+			}
+			.a{
+				width: 98%;
+				padding: 2%;
+				text-align: center;
+				
+			}
+			.a img{
+				width: 98%
+				padding:2%;
+				
+				
+			}
+
+			.b{
+				width: 92%;
+				padding: 2%;
+				
+			}
+			.b{
+				text-align: center;
+			}
+			.c{
+				width: 92%;
+				padding: 2%;
+			}
+			.d{
+				width: 92%;
+				padding: 2%;
+			}
+			.e{
+				width: 92%;
+				padding: 2%;
+			}
+			
+
+			.f img{
+				width: 98%
+				padding:2%;
+			}
+			.c img{
+				width: 98%
+				padding:2%;
+				
+			}
+			.d img{
+				width: 98%
+				padding:2%;
+				
+
+			}
+			.e img{
+				width: 94%
+				padding:2%;
+				margin: 1%;
+			}
+ 		}
+ 		
